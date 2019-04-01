@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="grid-container">
+
+    <!-- ONE = Minus -->
+    <button class="btn block-cube block-cube-hover oneC oneR" type="button" onclick="minus()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">MINUS -</div></button>
+
+        <!-- two = Power -->
+        <button class="btn block-cube block-cube-hover twoC oneR" type="button" onclick="power()">
+            <div class="bg-top">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg-right">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg">
+                <div class="bg-inner"></div>
+            </div>
+        <div class="text">Powaa!</div></button>
+
+        <!-- three = rad -->
+        <button class="btn block-cube block-cube-hover threeC oneR" type="button" onclick="rad()">
+            <div class="bg-top">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg-right">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg">
+                <div class="bg-inner"></div>
+            </div>
+        <div class="text">Rad!</div></button>
+
+        <!-- four = ! -->
+        <button class="btn block-cube block-cube-hover fourC oneR" type="button" onclick="zero()">
+            <div class="bg-top">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg-right">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg">
+                <div class="bg-inner"></div>
+            </div>
+        <div class="text">0</div></button>
+
+
+<!-- **********************************SECONDO COLUMN **************** -->
+<!-- five = + -->
+    <button class="btn block-cube block-cube-hover oneC twoR" type="button" onclick="plus()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">PLUS + </div></button>
+
+    <!-- six = 7 -->
+    <button class="btn block-cube block-cube-hover twoC twoR" type="button" onclick="seven()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">7</div></button>
+
+    <!-- seven = 8 -->
+    <button class="btn block-cube block-cube-hover threeC twoR" type="button" onclick="eight()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">8</div></button>
+
+    <!-- 9 = ! -->
+    <button class="btn block-cube block-cube-hover fourC twoR" type="button" onclick="nine()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">NINE 9</div></button>
+<!-- ************************ Third row -->
+
+<button class="btn block-cube block-cube-hover oneC threeR" type="button" onclick="multiply();">
+    <div class="bg-top">
+        <div class="bg-inner"></div>
+    </div>
+    <div class="bg-right">
+        <div class="bg-inner"></div>
+    </div>
+    <div class="bg">
+        <div class="bg-inner"></div>
+    </div>
+
+    <div class="text">MULTIPLICATION * </div></button>
+
+        <button class="btn block-cube block-cube-hover twoC threeR" type="button" onclick="four()">
+            <div class="bg-top">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg-right">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg">
+                <div class="bg-inner"></div>
+            </div>
+    <div class="text">4</div></button>
+
+    <button class="btn block-cube block-cube-hover threeC threeR" type="button" onclick="five()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">5</div></button>
+
+    <button class="btn block-cube block-cube-hover fourC threeR" type="button" onclick="six()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+    <div class="text">SIX 6</div></button>
+
+<!-- Fourth Row! -->
+
+    <button class="btn block-cube block-cube-hover oneC fourR" type="button" onclick="divide()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="text">DIVISION \ </div>
+    </button>
+    <button class="btn block-cube block-cube-hover twoC fourR" type="button" onclick="one()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="text">1</div>
+    </button>
+
+    <button class="btn block-cube block-cube-hover threeC fourR" type="button" onclick="two()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="text">2</div>
+    </button>
+
+    <button class="btn block-cube block-cube-hover fourC fourR" type="button" onclick="three()">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="text">THREE 3</div>
+    </button>
+
+    <div class="right">
+        <div class="control block-cube block-input history">
+        <div class="bg-top">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg-right">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="bg">
+            <div class="bg-inner"></div>
+        </div>
+        <div class="text display" id="history"></div>
+    </div>
+    </div>
+
+    <div class="bottom" onclick="calculate()">
+        <div class="control block-cube block-input">
+            <div class="bg-top">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg-right">
+                <div class="bg-inner"></div>
+            </div>
+            <div class="bg">
+                <div class="bg-inner "></div>
+            </div>
+            <div class="display text" id="current"></div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript"src="scripts.js"></script>
+    </body>
+</html>
